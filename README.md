@@ -41,7 +41,7 @@ Monitors jobs on Request Chains and transfers them to the Common Chain for Execu
   ```shell
   curl -X GET -H "Content-Type: application/json" -d '{"chain_ids": [31337]}' http://localhost:6001/signed-registration-message -v
   ```
-- Use the signature from the above endpoint to register on the commmon chain.
+- Use the signature from the above endpoint to register on the common chain.
 
 # Verifying Config
 
